@@ -42,7 +42,7 @@ export const AboutSection = () => {
                   </span>
                 </h3>
                 <p>{about}</p>
-                <p>{about_quote}</p>
+                {about_quote && <p>{about_quote}</p>}
               </div>
 
               <div className="custom-btn-group mt-4">
