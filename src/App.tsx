@@ -1,10 +1,4 @@
-import {
-  Menu,
-  AboutSection,
-  ProjectSection,
-  FeatureSection,
-  Footer,
-} from "./components";
+import { Menu, AboutSection, FeatureSection, Footer } from "./components";
 import { AppProvider } from "./context";
 
 import "./App.css";
